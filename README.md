@@ -35,7 +35,7 @@ This project implements a user authentication backend with FastAPI and SQLAlchem
 
 ## Project Structure
 ```
-Lab-5/
+fastapi-auth-backend/
 ├── alembic/
 │   ├── versions/
 │   │   └── 86f573aa9332_create_users_table.py
@@ -43,7 +43,7 @@ Lab-5/
 │   ├── script.py.mako
 │   └── README
 ├── .gitignore
-├── README.md        
+├── README.md          # This file
 ├── alembic.ini        # Alembic configuration
 ├── auth.py            # Password hashing, JWT, register/login logic
 ├── database.py        # SQLAlchemy engine & session setup
@@ -67,8 +67,8 @@ Lab-5/
 
 ### Installation
 ```bash
-git clone https://github.com/tabita-bit/Lab-5.git
-cd Lab-5
+git clone https://github.com/tabita-bit/fastapi-auth-backend.git
+cd fastapi-auth-backend
 pip install -r requirements.txt
 ```
 
