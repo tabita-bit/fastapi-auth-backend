@@ -9,6 +9,7 @@ A backend authentication API built with FastAPI, featuring user registration and
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
 - [Getting Started](#getting-started)
+- [Known Limitations](#known-limitations)
 - [Author](#author)
 
 ## Overview
@@ -42,7 +43,7 @@ Lab-5/
 │   ├── script.py.mako
 │   └── README
 ├── .gitignore
-├── README.md         
+├── README.md        
 ├── alembic.ini        # Alembic configuration
 ├── auth.py            # Password hashing, JWT, register/login logic
 ├── database.py        # SQLAlchemy engine & session setup
@@ -76,6 +77,9 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 The API will be available at `http://127.0.0.1:8000`, with interactive docs at `http://127.0.0.1:8000/docs`.
+
+## Known Limitations
+- The JWT secret key is currently hardcoded in `auth.py` for simplicity, since this is a coursework lab. In a production setting, it should be loaded from an environment variable (e.g. via `python-dotenv`) instead.
 
 ## Author
 Tabita Mali — [github.com/tabita-bit](https://github.com/tabita-bit)
