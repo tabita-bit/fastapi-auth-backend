@@ -41,15 +41,15 @@ Lab-5/
 │   ├── env.py
 │   ├── script.py.mako
 │   └── README
-├── alembic.ini       # Alembic configuration
-├── auth.py           # Password hashing, JWT, register/login logic
-├── database.py       # SQLAlchemy engine & session setup
-├── main.py           # FastAPI app & routes
-├── models.py         # SQLAlchemy User model
-├── schemas.py        # Pydantic schemas
-├── requirements.txt  # Python dependencies
 ├── .gitignore
-└── README.md          
+├── README.md         
+├── alembic.ini        # Alembic configuration
+├── auth.py            # Password hashing, JWT, register/login logic
+├── database.py        # SQLAlchemy engine & session setup
+├── main.py            # FastAPI app & routes
+├── models.py          # SQLAlchemy User model
+├── requirements.txt   # Python dependencies
+└── schemas.py         # Pydantic schemas
 ```
 
 ## API Endpoints
